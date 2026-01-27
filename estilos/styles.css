@@ -1,0 +1,56 @@
+*{margin: 0; font-family: Arial, Helvetica, sans-serif;}
+
+header{
+    margin-bottom: 100px;
+}
+.main_contenedor{
+    
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div_descripcion_perfil{
+    background-color: antiquewhite;
+}
+
+.div_proyectos{
+ background-color: aqua;
+}
