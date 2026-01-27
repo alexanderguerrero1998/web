@@ -9,6 +9,8 @@ header{
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header_contenedor{
@@ -17,40 +19,79 @@ header{
     align-items: center;
 }
 
+a{text-decoration: none;}
+hr{margin-top: 30px; margin-bottom: 30px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.div_descripcion_perfil{
-    background-color: antiquewhite;
+.tags_tecnologias{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+.tag_child{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    border: px;
+    background-color: skyblue;
+    border-radius: 10px;
+   
+}
+.contenedor_experiencia{
+    margin-top: 30px;
+}
+.contenedor_proyectos{
+    margin-top: 30px;
+}
+.child_tech_proyectos{
+   display: flex;
+   flex-direction: row;
+}
+.tag_child_tech_proyectos{
+    display: flex;
+    margin-right: 10px;
+    height: 30px;
+    width: 50px;
+    background-color: slateblue;
+    align-items: center;
+    border-radius: 10px;
+}
+.contenedor_formacion{
+    margin-top:30px;
+}
+.child_formacion_estado{
+    width: 100px;
+    height:30px ;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: green;
 }
 
-.div_proyectos{
- background-color: aqua;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
