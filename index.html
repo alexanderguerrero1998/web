@@ -1,100 +1,146 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <link rel="stylesheet" href="estilos/styles.css">
-    </header>
     <head>
-
+         <link rel="stylesheet" href="estilos/styles.css">
     </head>
-    <body>
-        <div class="main_contenedor">
-            <div class="header_contenedor">
-                <div class="div_foto">
-                    <img src="imgs/FotoPerfil.png" width="180" height="140">
+    
+    <body>       
+            <div class="main_contenedor">
+                <div class="header_contenedor">
+                    <div class="div_foto">
+                        <img src="imgs/FotoPerfil.png" width="150" height="110">
+                    </div>
+                    
+                    <div class="div_descripcion_perfil">
+                        <h1 class="nombre">Edisson A. Guerrero</h1>
+                        <h3 class="cargo_perfil">Programador</h3>
+                        <div class="ubicacion">
+                            <img  src="imgs/mapas.png" width="20" height="20">
+                            <p class="cuidad">Cuenca-Ecuador</p>
+                        </div>
+                        <div class="div_btn_perfil">
+                            <button class="btn_mail"><a target="_blank" href="mailto:alexanderxn3@gmail.com"><div class="mail"><img class="img_correo" src="imgs/correo-electronico.png" width="20" height="20"><p>alexanderxn3@gmail.com</p></div></a></button> 
+                            <button><a target="_blank" href=""><img src="imgs/reanudar.png" width="20" height="20"></a></button>
+                            <button><a target="_blank" href=""><img src="imgs/github.png" alt="GitHub" width="20" height="20"></a></button>
+                            <button><a href="https://www.linkedin.com/in/alexander-guerrero-dutan-262479170/" target="_blank"><img src="imgs/linkedin.png" alt="linkedin" width="20" height="20"></a></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div_sobremi">
+                    <h3>SOBRE MI</h3>
+                    <p>Me apasiona el Desarrollador de Software y las competencias de tecnología 
+                    a nivel nacional e Internacional. He representado a mi universidad en 
+                    consurso Nacional de desarrollo de software Code Challenge 2023 
+                    obteniendo un triunfo a nivel local.</p>
+                </div>
+                <hr>
+                <div class="contenedor_tecnologias">
+                <div class="div_tecnologias">
+                        <h3>TECNOLOGIAS</h3>
+                        <div class="tags_tecnologias">
+                            <div class="tag_child"><p><img src="imgs/html-5.png" alt="html" width="30" height="30"></p></div>
+                            <div class="tag_child"><p><img src="imgs/css-3.png" alt="css" width="30" height="30"></p></div>
+                            <div class="tag_child"><p><img src="imgs/js.png" alt="js" width="30" height="30"></p></div>
+
+                        </div>
+                </div> 
+                </div>
+
+                <div class="contenedor_experiencia">
+                    <div class="div_experiencia">
+                        <div><h3 class="titulo_experiencia">EXPERIENCIA</h3></div>
+                        <div class="div_items">
+                            <div class="div_items_child"><img src="imgs/edicion-de-codigo.png" alt="" width="30" height="30"></div>
+                            <div class="child_experiencia">
+                                <h4 class="child_tit_expe">Desarrollo de cátalogo web</h4>
+                                <p class="cargo">Programador</p>
+                                <p> Lideré de punta a punta el desarrollo de un sitio web corporativo para una empresa de productos de madera, coordinando con el cliente la definición de requisitos, configurando la infraestructura de hosting y dominios, e implementando WordPress con personalizaciones a medida. Complementé el proyecto con producción fotográfica profesional y pruebas integrales de calidad para asegurar un lanzamiento sólido y eficiente.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="div_items">
+                            <div class="div_items_child"><img src="imgs/edicion-de-codigo.png" alt="" width="30" height="30"></div>
+                            <div class="child_experiencia">
+                                <h4 class="child_tit_expe">Análisis y Gestión de Datos con Power BI </h4>
+                                <p class="cargo">Programador</p>
+                                <p>Diseñé y administré dashboards en Power BI integrando datos de data warehouses, data sets y Excel, desarrollando procesos ETL y automatizando flujos de actualización y control de calidad para asegurar información confiable, generar insights estratégicos y optimizar la toma de decisiones y los procesos internos.</p>
+                            </div>
+                        </div>
+
+                        <div class="div_items">
+                            <div class="div_items_child"><img src="imgs/edicion-de-codigo.png" alt="" width="30" height="30"></div>
+                            <div class="child_experiencia">
+                                <h4 class="child_tit_expe">Análisis de Comportamiento de Usuario y Mapas de Calor</h4>
+                                <p class="cargo">Programador</p>
+                                <p>Analicé mapas de calor y registros de clics para comprender el comportamiento y flujo de interacción de los usuarios, identificar patrones de navegación y puntos críticos, y generar informes ejecutivos con recomendaciones estratégicas orientadas a mejorar la usabilidad, la conversión y la eficiencia de las plataformas digitales.</p>
+                            </div>
+                        </div>
+
+                        <div class="div_items">
+                            <div class="div_items_child"><img src="imgs/edicion-de-codigo.png" alt="" width="30" height="30"></div>
+                            <div class="child_experiencia">
+                                <h4 class="child_tit_expe">Auditoría de recursos Informáticos </h4>
+                                <p class="cargo">Programador</p>
+                                <p>Dirigí auditorías de recursos informáticos, monitoreando el uso de software en distintos horarios para optimizar eficiencia y seguridad de los sistemas, y elaborando informes con recomendaciones estratégicas basadas en el análisis de uso.</p>
+                            </div>
+                        </div>
+
+                        <div class="div_items">
+                            <div class="div_items_child"><img src="imgs/edicion-de-codigo.png" alt="" width="30" height="30"></div>
+                            <div class="child_experiencia">
+                                <h4 class="child_tit_expe">Desarrollo de sistema bolsa empleo </h4>
+                                <p class="cargo">Programador</p>
+                                <p>Lideré el desarrollo integral de una aplicación web para la gestión de una bolsa de empleo universitaria, diseñando una arquitectura por capas escalable y mantenible, definiendo reglas de negocio, desarrollando la base de datos y una interfaz UI/UX intuitiva, y colaborando directamente con usuarios para capturar requisitos clave y asegurar una solución eficiente y alineada a sus necesidades.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contenedor_proyectos">
+                    <div class="div_proyectos">
+                        <div><h3>PROYECTOS</h3></div>
+                        <div class="child_proyectos">
+                            <h4>Titulo</h4>
+                            <p>Descripcion</p>
+                            <div class="child_tech_proyectos">
+                                <div class="tag_child_tech_proyectos">Tech</div>
+                                <div class="tag_child_tech_proyectos">Tech</div>
+                            </div>
+                            <div class="child_proyectos_git">
+                                <div class="tag_child_proyectos_git"><button><a href=""><img src="imgs/github.png" alt="github" width="20" height="20"></a></button></div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="div_descripcion_perfil">
-                    <p><h1>Edisson A. Guerrero</h1></p>
-                    <p><h3>Programador</h3></p>
-                    <p>Cuenca-Ecuador</p>
-                    <button><a href="https://www.google.com/">alexanderxn3@gmail.com</a></button> 
-                    <button><a href="https://www.google.com/">1</a></button>
-                    <button><a href="https://www.google.com/">2</a></button>
-                    <button><a href="https://www.google.com/">3</a></button>
-                </div>
-            </div>
-
-            <div class="div_sobremi">
-                <p><h3>SOBRE MI</h3></p>
-                <p>Me apasiona el Desarrollador de Software y las competencias de tecnología 
-                a nivel nacional e Internacional. He representado a mi universidad en 
-                consurso Nacional de desarrollo de software Code Challenge 2023 
-                obteniendo un triunfo a nivel local.</p>
-            </div>
-            <hr>
-            <div class="contenedor_tecnologias">
-               <div class="div_tecnologias">
-                    <h3>TECNOLOGIAS</h3>
-                    <div class="tags_tecnologias">
-                        <div class="tag_child"><p>Html</p></div>
-                        <div class="tag_child"><p>Html</p></div>
-                        <div class="tag_child"><p>Html</p></div>
-
-                    </div>
-               </div> 
-            </div>
-
-            <div class="contenedor_experiencia">
-                <div class="div_experiencia">
-                    <div><h3>EXPERIENCIA</h3></div>
-                    <div class="child_experiencia">
-                        <h4>Titulo</h4>
-                        <p>Fecha</p>
-                        <p>Cargo</p>
-                        <p>Descripcion</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contenedor_proyectos">
-                <div class="div_proyectos">
-                    <div><h3>PROYECTOS</h3></div>
-                    <div class="child_proyectos">
-                        <h4>Titulo</h4>
-                        <p>Descripcion</p>
-                        <div class="child_tech_proyectos">
-                            <div class="tag_child_tech_proyectos">Tech</div>
-                            <div class="tag_child_tech_proyectos">Tech</div>
+                <div class="contenedor_formacion">
+                    <div class="div_img_formacion"><img src="imgs/diploma-de-graduacion.png" alt="" width="30" height="30"></div>
+                    <div class="div_formacion">
+                        <div><h3 class="titulo_formacion">FORMACION</h3></div>
+                        <div class="div_child_formacion">
+                            <div class="child_formacion">
+                                <h4 class="child_tit_formacion">Universidad Nacional De Chimborazo</h4>
+                                <p>Facultad de Ingenieria</p>
+                                <p>Profesional en tecnologías de la información, enfocado en la generación de soluciones informáticas y computacionales en los ámbitos de software, hardware, comunicaciones y seguridad informática, con capacidad para aportar valor en instituciones públicas y privadas, PYMES y entornos de consultoría, tanto a nivel nacional como internacional.</p>
+                                <div class="child_formacion_estado"><p>Finalizado</p></div>
+                            </div>
                         </div>
-                        <div class="child_proyectos_git">
-                            <div class="tag_child_proyectos_git"><button><a href="">Git</a></button></div>
-                        </div>
-
                     </div>
                 </div>
-            </div>
-            
-            <div class="contenedor_formacion">
-                <div class="div_formacion">
-                     <div><h3>FORMACION</h3></div>
-                     <div class="child_formacion">
-                        <h4>Titulo</h4>
-                        <p>Carrera</p>
-                        <p>Descripcion</p>
-                        <div class="child_formacion_estado"><p>Estado</p></div>
-                     </div>
-                </div>
-            </div>
-            
-             <hr>
-             <footer>
-                <button><a href="https://www.google.com/">alexanderxn3@gmail.com</a></button> 
-                    <button><a href="https://www.google.com/">1</a></button>
-                    <button><a href="https://www.google.com/">2</a></button>
-                    <button><a href="https://www.google.com/">3</a></button>
-             </footer>
+                
+                <hr>
+                <footer>
+                    <button class="btn_mail"><a target="_blank" href="mailto:alexanderxn3@gmail.com"><div class="mail"><img class="img_correo" src="imgs/correo-electronico.png" width="20" height="20"><p>alexanderxn3@gmail.com</p></div></a></button> 
+                    <button><a target="_blank" href=""><img src="imgs/curriculum-vitae.png" width="20" height="20"></a></button>
+                    <button><a target="_blank" href=""><img src="imgs/github.png" alt="GitHub" width="20" height="20"></a></button>
+                    <button><a href="https://www.linkedin.com/in/alexander-guerrero-dutan-262479170/" target="_blank"><img src="imgs/linkedin.png" alt="linkedin" width="20" height="20"></a></button>
+                </footer>
 
 
+            </div>
         </div>
 
     </body>

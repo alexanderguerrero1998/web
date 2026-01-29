@@ -3,77 +3,46 @@
 header{
     margin-bottom: 100px;
 }
-.main_contenedor{
-    
-    max-width: 800px;
-    margin: auto;
+.main_contenedor{ max-width: 800px;
+    margin: 40px auto;
     display: flex;
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: white;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+    padding-top: 50px;
+   
 }
 
-.header_contenedor{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-a{text-decoration: none;}
+body { background-color: #F5F7FA;}
+.header_contenedor { display: flex; flex-direction: row; align-items: center; background-color: transparent; }
+a{text-decoration: none; }
 hr{margin-top: 30px; margin-bottom: 30px;}
-
-.tags_tecnologias{
-    display: flex;
-    flex-direction: row;
-   
-   
-}
-.tag_child{
-    width: 100px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    margin-right: 5px;
-    border: px;
-    background-color: skyblue;
-    border-radius: 10px;
-   
-}
-.contenedor_experiencia{
-    margin-top: 30px;
-}
-.contenedor_proyectos{
-    margin-top: 30px;
-}
-.child_tech_proyectos{
-   display: flex;
-   flex-direction: row;
-}
-.tag_child_tech_proyectos{
-    display: flex;
-    margin-right: 10px;
-    height: 30px;
-    width: 50px;
-    background-color: slateblue;
-    align-items: center;
-    border-radius: 10px;
-}
-.contenedor_formacion{
-    margin-top:30px;
-}
-.child_formacion_estado{
-    width: 100px;
-    height:30px ;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background-color: green;
-}
-
-
-
-
+.tags_tecnologias{ display: flex; flex-direction: row; margin-top: 10px;}
+.tag_child{ display: flex; align-items: center; margin-right: 5px; border: px; border-radius: 10px;}
+.contenedor_experiencia{ margin-top: 30px;}
+.contenedor_proyectos{ margin-top: 30px; }
+.child_tech_proyectos{ display: flex; flex-direction: row; }
+.tag_child_tech_proyectos{ display: flex; margin-right: 10px; height: 30px; width: 50px; background-color: slateblue; align-items: center; border-radius: 10px;}
+.contenedor_formacion{ margin-top:30px; display: flex; flex-direction: row;}
+.child_formacion_estado{ width: 65px; margin-top: 5px;  font-size: 12px; display: flex; align-items: center; border-radius: 10px; background-color: green; color:white; padding-left: 10px;}
+.cargo { font-size: 12px; background-color: #0F4C75; width: 80px; color: #ffff; border-radius: 50px; padding-left: 10px;  }
+.child_experiencia { margin-top: 10px;}
+footer {margin-bottom: 50px;}
+.div_child_formacion { margin-top: 10px;}
+.cuidad { font-size: 14px;}
+.ubicacion { display: flex; flex-direction: row; align-items: center; }
+.mail{ display: flex; flex-direction: row; align-items: center; color:white; }
+.btn_mail{ background-color: #0F756B; border-style: none; border-radius: 50px; width: 200px; height: 30px;}
+button{border-style: none;   border-radius: 55px;}
+.div_btn_perfil{margin-top: 5px;}
+.img_correo{margin-right: 5px;}
+.div_sobremi{margin-top: 30px; background-color: transparent;}
+.div_img_formacion{ border-radius: 50px; padding-left: 10px;}
+.div_items{display: flex; flex-direction: row;}
+.div_items_child{ padding-top: 10px; padding-right: 20px;}
+.cargo_perfil, .nombre { color: #0F4C75;}
 
 
 
