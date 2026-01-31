@@ -3,7 +3,8 @@
 header{
     margin-bottom: 100px;
 }
-.main_contenedor{ max-width: 800px;
+.main_contenedor{ max-width: 50%;
+    min-width: 400px;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
@@ -22,9 +23,15 @@ hr{margin-top: 30px; margin-bottom: 30px;}
 .tags_tecnologias{ display: flex; flex-direction: row; margin-top: 10px;}
 .tag_child{ display: flex; align-items: center; margin-right: 5px; border: px; border-radius: 10px;}
 .contenedor_experiencia{ margin-top: 30px;}
-.contenedor_proyectos{ margin-top: 30px; }
-.child_tech_proyectos{ display: flex; flex-direction: row; }
-.tag_child_tech_proyectos{ display: flex; margin-right: 10px; height: 30px; width: 50px; background-color: slateblue; align-items: center; border-radius: 10px;}
+
+.contenedor_proyectos{ margin-top: 30px;}
+.child_tech_proyectos{ display: flex; flex-direction: row;}
+.tag_child_tech_proyectos{ display: flex; margin-right: 10px; height: 130px; width: 70%; background-color: slateblue; align-items: center; flex-wrap: wrap;}
+.info_child_proyectos{padding-left: 15px; font-size: clamp(0.1rem, 1.5vw, 1rem); /* min, preferido, max *//* min, preferido, max */;}
+
+#proyecto1{background-color: #0F756B; background-image: url(/imgs/backp1.png); color: white;}
+
+
 .contenedor_formacion{ margin-top:30px; display: flex; flex-direction: row;}
 .child_formacion_estado{ width: 65px; margin-top: 5px;  font-size: 12px; display: flex; align-items: center; background-color: green; color:white; padding-left: 10px;}
 .cargo { font-size: 12px; background-color: #0F4C75; width: 80px; color: #ffff;  padding-left: 10px;   }
