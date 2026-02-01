@@ -29,7 +29,7 @@ hr{margin-top: 30px; margin-bottom: 30px;}
 .tag_child_tech_proyectos{ display: flex; margin-right: 10px; height: 130px; width: 70%; background-color: slateblue; align-items: center; flex-wrap: wrap;}
 .info_child_proyectos{padding-left: 15px; font-size: clamp(0.1rem, 1.5vw, 1rem); }
 
-#proyecto1{ background-image: url("https://insiderlatam.com/wp-content/uploads/2021/02/app-citas-scaled.jpg"); background-size: cover; background-position: center; color: white;}
+#proyecto1{ background-image: url("https://github.com/alexanderguerrero1998/web/blob/main/backp1.png?raw=true"); background-size: cover; background-position: center; color: white;}
 .btn_proyecto{width: 80px;}
 
 .contenedor_formacion{ margin-top:30px; display: flex; flex-direction: row;}
