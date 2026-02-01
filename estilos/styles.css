@@ -30,7 +30,10 @@ hr{margin-top: 30px; margin-bottom: 30px;}
 .info_child_proyectos{padding-left: 15px; font-size: clamp(0.1rem, 1.5vw, 1rem); }
 
 #proyecto1{ background-image: url("https://github.com/alexanderguerrero1998/web/blob/main/backp1.png?raw=true"); background-size: cover; background-position: center; color: white;}
-.btn_proyecto{width: 80px;}
+.btn_proyecto{width: 80px;   font-size: 12px; }
+
+#proyecto2{ background-image: url("https://github.com/alexanderguerrero1998/web/blob/main/backp2.png?raw=true"); background-size: cover; background-position: center; color: white;}
+.btn_proyecto{width: 80px;   font-size: 12px; }
 
 .contenedor_formacion{ margin-top:30px; display: flex; flex-direction: row;}
 .child_formacion_estado{ width: 65px; margin-top: 5px;  font-size: 12px; display: flex; align-items: center; background-color: green; color:white; padding-left: 10px;}
