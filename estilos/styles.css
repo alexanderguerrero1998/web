@@ -29,7 +29,7 @@ hr{margin-top: 30px; margin-bottom: 30px;}
 .tag_child_tech_proyectos{ display: flex; margin-right: 10px; height: 130px; width: 70%; background-color: slateblue; align-items: center; flex-wrap: wrap;}
 .info_child_proyectos{padding-left: 15px; font-size: clamp(0.1rem, 1.5vw, 1rem); /* min, preferido, max *//* min, preferido, max */;}
 
-#proyecto1{background-color: #0F756B; background-image: url(/imgs/backp1.png); color: white;}
+#proyecto1{background-color: #0F756B; background-image: url(); color: white;}
 
 
 .contenedor_formacion{ margin-top:30px; display: flex; flex-direction: row;}
