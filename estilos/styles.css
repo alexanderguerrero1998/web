@@ -34,6 +34,10 @@ hr{margin-top: 30px; margin-bottom: 30px;}
 
 #proyecto2{ background-image: url("https://github.com/alexanderguerrero1998/web/blob/main/backp2.png?raw=true"); background-size: cover; background-position: center; color: white;}
 .btn_proyecto{width: 80px;   font-size: 12px; }
+#proyecto3{ background-image: url("https://github.com/alexanderguerrero1998/web/blob/main/backup3.png?raw=true"); background-size: cover; background-position: center; color: white;}
+.btn_proyecto{width: 80px;   font-size: 12px; }
+
+
 
 .contenedor_formacion{ margin-top:30px; display: flex; flex-direction: row;}
 .child_formacion_estado{ width: 65px; margin-top: 5px;  font-size: 12px; display: flex; align-items: center; background-color: green; color:white; padding-left: 10px;}
